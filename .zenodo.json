@@ -1,0 +1,34 @@
+{
+  "title": "fkern-iter-logger: Modified FEMM kernel with Newton-Raphson convergence logging",
+  "description": "A modified 64-bit FEMM 4.2 magnetic solver that writes the total number of Newton-Raphson iterations performed during an analysis to a plain-text .iter file.",
+  "upload_type": "software",
+  "publication_date": "2026-02-27",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Valpiani, Federico",
+      "affiliation": "Department of Energy, Politecnico di Milano",
+      "orcid": "0009-0004-8274-8094"
+    }
+  ],
+  "access_right": "open",
+  "license": "other-open",
+  "keywords": [
+    "finite element method",
+    "electromagnetic simulation",
+    "Newton-Raphson",
+    "convergence analysis",
+    "FEMM",
+    "electric machines",
+    "non-linear analysis"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.femm.info/",
+      "relation": "isDerivedFrom",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Derivative work based on FEMM 4.2 by David Meeker and distributed under the Aladdin Free Public License. Associated paper: Accelerating Magnetostatic FEM Simulations of Electric Machines with Echo State Networks, ICEM 2026."
+}
